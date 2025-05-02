@@ -2,7 +2,7 @@ import { NavLink } from "react-router"
 import { AnimatedWord } from "../helper/AnimatedWord"
 import { FaCartShopping } from "react-icons/fa6"
 
-export function Header({content,textColor='text-black',sticky=true}){
+export function Header1({content,textColor='text-black',sticky=true}){
 
     return (
         <> 

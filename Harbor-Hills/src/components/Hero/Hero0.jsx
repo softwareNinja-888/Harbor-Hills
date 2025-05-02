@@ -1,6 +1,6 @@
 import { Btn } from "../helper/Btn";
 
-export function Hero({content,textColor="text-white"}) {
+export function Hero0({content,textColor="text-white"}) {
     return (
         <>
             <div className={`flex flex-col gap-10  items-center justify-center py-30 ${textColor} z-20`} >

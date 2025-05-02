@@ -1,10 +1,10 @@
-import { useState } from 'react'
-// HEADER COMPONENTS
-import { Header } from './components/Header/Header.jsx'
-import { Header0 } from './components/Header/Header0.jsx'
 
-// HERO COMPONEMTS
-import { Hero } from './components/Hero/Hero'
+
+// HEADER AND HERO OPTIONS:
+import { Option0 } from './components/TOP/Option0.jsx'
+import { Option1 } from './components/TOP/Option1.jsx'
+
+// ABOUT OPTIONS
 
 const Information = (function (){
   function createTopInfo(name="Company Name",links=[],heroText="",imgs,logo){
@@ -36,21 +36,8 @@ function App() {
 
   return (
     <>
-      <div className="relative ">
-        {/* BG IMAGE */}
-        <div className="absolute inset-0 z-0  bg-center bg-cover bg-no-repeat" style={{backgroundImage: `url('${content.imgs}')`}}/>
-
-        {/* OVERLAY  */}
-        <div className="absolute inset-0 bg-black/20 backdrop-blur-xs z-10"></div>
-
-        {/* CONTENT */}
-        <div className="relative z-20 flex flex-col h-full">
-          <Header content={content} textColor='text-white'/>
-          {/* <Header0 content={content} textColor='text-white'/> */}
-          <Hero content={content.heroText}/>
-        </div>
-      </div>
-
+      {/* <Option0 content={content}/> */}
+      {/* <Option1 content={content}/> */}
     </>
   )
 }
