@@ -68,11 +68,22 @@
 
 @theme {
 
-  --color-mainBg: #f9f3ee;
-  --color-lightBlue: #5f9bc6;
+  --color-mainBg: #e4e4dc; 
+  /* --color-lightBlue: #5f9bc6; 
   --color-darkBlue: #011d3f;
   --color-thirdGreen: #c1e4c4;
-  --color-accent: #d9a180;
+  --color-accent: #d9a180; */
+
+  /* NEW THEME */
+
+  --color-desertSand: #EDCBB1;
+  --color-darkGreen: #002500;
+  --color-mossGreen: #929982;
+  --color-roseRed: #B7245C;
+  --color-wine: #7C3238;
+  /* --color-btn: #AF9A69; */
+
+  --color-btn: #8B6C26;
 
   
 /*  /*FONTS*/

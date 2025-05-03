@@ -1,7 +1,6 @@
 import { MdMenu } from 'react-icons/md'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import { NavLink } from 'react-router';
-import { Header1 } from './Header1';
 import { AnimatedWord } from '../helper/AnimatedWord';
 
 function LineHori({size='w-10',border='border-1 border-darkGreen',direction="rotate-90"}){
@@ -11,9 +10,10 @@ function LineHori({size='w-10',border='border-1 border-darkGreen',direction="rot
         </>
     )
 }
-export function Header2({content,textColor='text-black',sticky=true}) {
+export function Header3({content,textColor='text-black',sticky=true}) {
     return (
         <>
+            <div className="text-5xl">This is new</div>
             <div className={`flex flex-col gap-9  py-6 px-8 bg-mainBg ${sticky ? 'sticky top-0 z-50' : null}`}>
                 <div className="flex justify-between font-cinzel">
                     
@@ -49,8 +49,8 @@ export function Header2({content,textColor='text-black',sticky=true}) {
 
                     {/* LOGO */}
                     <div className="flex items-center gap-3">
-                        <div className="font-italiana text-5xl">{content.name}</div>
-                        <img src={content.logo} alt="logo" className="w-24 h-24" />
+                        <div className="font-italiana text-4xl">{content.name}</div>
+                        <img src={content.logo} alt="logo" className="w-10 h-10" />
                         <LineHori border='border-3 border-mossGreen'/>
                     </div>
 
